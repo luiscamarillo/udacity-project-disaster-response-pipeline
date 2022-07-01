@@ -22,18 +22,18 @@ Building this web app allowed me to put into action the set of skills acquired t
 
 ## File Descriptions
 
-- app
-| - templates
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
-
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py # ETL python script
-|- DisasterResponse.db   # database to save clean data to
-|- ETL Pipeline Preparation.ipynb   # jupyter notebook with ETL steps / data exploration
+`- app`
+`| - templates`
+`| |- master.html  # main page of web app`
+`| |- go.html  # classification result page of web app`
+`|- run.py  # Flask file that runs app`
+``
+`- data`
+`|- disaster_categories.csv  # data to process `
+`|- disaster_messages.csv  # data to process`
+`|- process_data.py # ETL python script`
+`|- DisasterResponse.db   # database to save clean data to`
+`|- ETL Pipeline Preparation.ipynb   # jupyter notebook with ETL steps / data exploration`
 
 - models
 |- train_classifier.py # NLP-ML training pipeline
