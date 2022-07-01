@@ -29,20 +29,20 @@ Building this web app allowed me to put into action the set of skills acquired t
 | |- go.html  # classification result page of web app
 |- run.py  # Flask file that runs app
 
-- data`
+- data
 |- disaster_categories.csv  # data to process
 |- disaster_messages.csv  # data to process
 |- process_data.py # ETL python script
 |- DisasterResponse.db   # database to save clean data to
 |- ETL Pipeline Preparation.ipynb   # jupyter notebook with ETL steps / data exploration
-```
+
 - models
 |- train_classifier.py # NLP-ML training pipeline
 |- classifier.pkl  # saved model / not pushed because of size
 |- ML Pipeline Preparation.ipynb   # jupyter notebook with NLP-ML steps / data exploration
 
 - README.md
-
+```
 ## Results & Improvements
 
 This dataset is imbalanced -- some labels like water have few examples. In fact, there is one class () that has no positive instances. This prevented me from trying out models like Gradient Boosting Classifiers, SVMs, or a special `BalancedRandomForestClassifier` to deal with the imbalance, since they require at least one positive class when sampling. A future iteration of the project might involve dropping this feature, or gathering more data to create positive training data, and therefore gaining the ability to try out more models.
