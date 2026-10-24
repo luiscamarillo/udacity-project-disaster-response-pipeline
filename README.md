@@ -68,8 +68,12 @@ In case you want to run this app locally:
 2. Run the following command in the app's directory to run your web app.
     `python run.py`
 
-3. Go to http://0.0.0.0:3001/
+3. Go to http://127.0.0.1:3001/
 
 ## Licensing & Acknowledgements
 Feel free to reuse this code under the MIT License. Special thanks to the Appen and Udacity for the data and project framework.
 
+
+## Security and deployment status
+
+This is a historical teaching project. The local entry point binds only to loopback and disables Flask debug mode. Do not expose the development server to a network. Any production restoration needs a supported dependency manifest, production WSGI server, and review of the actual hosting configuration. Existing external deployments have not been verified or changed.
